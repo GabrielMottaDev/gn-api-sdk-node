@@ -30,7 +30,7 @@ let body = {
 
 let gerencianet = new Gerencianet(options);
 
-gerencianet.pixCreateImmediateCharge([], body)
+gerencianet.pixCreateImmediateCharge({}, body)
     .then(console.log)
     .catch(console.log)
     .done();
